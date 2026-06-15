@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Drizzle ORM
+.drizzle/
+**/src/db/.temp/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
